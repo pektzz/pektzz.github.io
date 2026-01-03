@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -39,12 +39,12 @@ hugo server -D
     
     
     
-      <meta name="robots" content="noindex, nofollow">
+      <meta name="robots" content="index, follow">
     
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.efe4d852f731d5d1fbb87718387202a97aafd768cdcdaed0662bbe6982e91824.css" >
 
 
 
@@ -60,12 +60,12 @@ hugo server -D
     
 
     
-      <link rel="canonical" href="http://localhost:1313/post/hugo-blog-deploy/">
+      <link rel="canonical" href="https://pektzz.github.io/posts/hugo-blog-deploy/">
     
 
     
     
-    <meta property="og:url" content="http://localhost:1313/post/hugo-blog-deploy/">
+    <meta property="og:url" content="https://pektzz.github.io/posts/hugo-blog-deploy/">
   <meta property="og:site_name" content="pektzz&#39;s Hugo Blog">
   <meta property="og:title" content="Hugo Blog Deploy">
   <meta property="og:description" content="Hugo 博客本地搭建与 GitHub Pages 部署完整方案 一、本地搭建 Hugo 博客 1. 安装 Hugo 首先需要安装 Hugo（建议使用 extended 版本）。根据你的操作系统选择相应的安装方式。 1
@@ -74,7 +74,7 @@ hugo server -D
 6. 本地预览 hugo server -D 访问终端显示的 URL（通常是 http://localhost:1313）查看你的博客。 6">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
+    <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-01-03T22:35:27+08:00">
     <meta property="article:modified_time" content="2026-01-03T22:35:27+08:00">
 
@@ -93,8 +93,11 @@ hugo server -D
 3. 初始化 Git 仓库 git init ``` [3](#0-2) ### 4. 添加主题 以 Ananke 主题为例（你可以选择其他主题）： ```bash git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml ``` [4](#0-3) ### 5. 创建内容 ```bash hugo new content content/posts/my-first-post.md 编辑生成的文件，添加你的内容。 5
 6. 本地预览 hugo server -D 访问终端显示的 URL（通常是 http://localhost:1313）查看你的博客。 6">
 
+      
+      
+    
 	
-  </head><body class="ma0 avenir bg-near-white development">
+  </head><body class="ma0 avenir bg-near-white production">
 
     
    
@@ -332,7 +335,7 @@ Thumbs.db
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://pektzz.github.io/" >
     &copy;  pektzz's Hugo Blog 2026 
   </a>
     <div><div class="ananke-socials"></div>
