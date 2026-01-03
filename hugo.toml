@@ -1,0 +1,4 @@
+baseURL = 'https://pektzz.github.io/'
+languageCode = 'zh-cn'
+title = "pektzz's Hugo Blog"
+theme = 'ananke'
